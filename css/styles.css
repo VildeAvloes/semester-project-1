@@ -13,6 +13,10 @@ main {
   min-height: 100vh;
 }
 
+img {
+  width: 100%;
+}
+
 body {
   font-family: var(--font-paragraph);
   min-height: 100vh;
@@ -23,9 +27,19 @@ h1,
 h2,
 nav a,
 footer,
+.overlay-text,
 .cta {
   font-family: var(--font-header);
   font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.4em;
+}
+
+p {
+  font-size: 1em;
   text-align: center;
 }
 
@@ -34,6 +48,15 @@ h2,
 nav a,
 .cta {
   text-transform: uppercase;
+}
+
+.h1-wrapper {
+  background: var(--orange);
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img.logo {
@@ -49,12 +72,18 @@ header {
   width: 100%;
 }
 
+header,
+nav,
+footer {
+  background-color: white;
+}
+
 nav {
   display: none;
   position: absolute;
   top: 136px;
   z-index: 1000;
-  right: 15px;
+  right: 0px;
 }
 
 nav ul {
@@ -78,11 +107,6 @@ nav li {
 
 .hamburger-icon {
   padding-right: 15px;
-}
-
-header,
-footer {
-  background-color: white;
 }
 
 footer {
