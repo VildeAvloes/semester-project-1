@@ -10,7 +10,7 @@ img.planets-image {
 
 .overlay-text {
   text-transform: uppercase;
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: white;
   position: absolute;
   top: 80%;
@@ -33,4 +33,38 @@ img.planets-image {
 .museum-image {
   width: 60%;
   padding: 20px;
+}
+
+.information-wrapper {
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+i.clock-icon,
+i.ticket-icon,
+i.pin-icon {
+  color: white;
+}
+
+.opening-info,
+.ticket-info,
+.location-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0px;
+}
+
+.information-text {
+  font-family: var(--font-header);
+  font-weight: bold;
+  color: white;
+}
+
+a.information-text {
+  font-size: 1.2em;
 }

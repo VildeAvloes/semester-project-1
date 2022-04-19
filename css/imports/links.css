@@ -11,7 +11,6 @@ nav a {
   font-size: 1.2em;
 }
 
-nav a:hover,
-footer a:hover {
+a:hover {
   color: var(--orange);
 }
