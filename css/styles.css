@@ -3,6 +3,8 @@
 @import "imports/variables.css";
 @import "imports/forms.css";
 
+/*Nav and Footer*/
+
 .background-color {
   background: var(--white);
   background-size: cover;
@@ -15,6 +17,7 @@ main {
 
 img {
   width: 100%;
+  object-fit: cover;
 }
 
 body {
@@ -38,6 +41,10 @@ h1 {
   font-size: 2em;
 }
 
+h2 {
+  font-size: 1.4em;
+}
+
 p {
   font-size: 1.2em;
   text-align: center;
@@ -48,15 +55,6 @@ h2,
 nav a,
 .cta {
   text-transform: uppercase;
-}
-
-.h1-wrapper {
-  background: var(--orange);
-  height: 50px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 img.logo {
@@ -125,4 +123,61 @@ footer p {
 .some-icons {
   display: inline;
   padding: 10px 0px;
+}
+
+/*Categories*/
+.h-wrapper {
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.all-categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-area: "cat1 cat2 cat3" "cat4 cat5 cat6";
+  padding: 40px 0px;
+}
+
+.category-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.category-image {
+  max-width: 100%;
+}
+
+.category-text {
+  padding: 5px;
+}
+
+.cat1 {
+  background: var(--orange);
+}
+
+.cat2 {
+  background: var(--green);
+}
+
+.cat3 {
+  background: var(--light-blue);
+}
+
+.cat4 {
+  background: var(--navy-blue);
+}
+
+.cat5 {
+  background: var(--purple);
+}
+
+.cat6 {
+  background: black;
 }
