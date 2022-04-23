@@ -134,11 +134,11 @@ footer p {
   width: 100%;
 }
 
-.all-categories {
+.index-categories {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-area: "cat1 cat2 cat3" "cat4 cat5 cat6";
+  grid-area: "cat-exhibitions cat-explore cat-news" "cat-kids cat-library cat-info";
   padding: 40px 0px;
 }
 
@@ -157,34 +157,31 @@ footer p {
   padding: 5px;
 }
 
-.cat1 {
+.cat-exhibitions {
   background: var(--orange);
 }
 
-.cat2 {
+.cat-explore {
   background: var(--green);
 }
 
-.cat3 {
+.cat-news {
   background: var(--light-blue);
 }
 
-.cat4 {
+.cat-kids {
   background: var(--navy-blue);
 }
 
-.cat5 {
+.cat-library {
   background: var(--purple);
 }
 
-.cat6 {
+.cat-info {
   background: black;
 }
 
 /*Visit*/
-.info-h1 {
-  background: black;
-}
 
 .text-wrapper {
   display: flex;
@@ -213,17 +210,26 @@ footer p {
 }
 
 /*News*/
-.news-h1 {
-  background-color: var(--light-blue);
-}
-
 .news-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
+.news-text {
+  padding: 0px 20px 20px 20px;
+}
+
 .news-image {
   width: 70%;
   padding: 20px 0px 20px 0px;
+}
+
+/*Exhibitions*/
+.exhibitions-categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr repeat(6);
+  grid-area: "special biology" "cosmology ecology" "evolution robotics";
+  padding: 40px 0px;
 }
