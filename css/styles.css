@@ -198,10 +198,6 @@ footer p {
   align-items: center;
 }
 
-.cta-visit {
-  margin: 25px 0px;
-}
-
 /*Library*/
 .library-h1 {
   background: var(--green);
