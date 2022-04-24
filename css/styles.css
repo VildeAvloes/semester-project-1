@@ -182,11 +182,12 @@ footer p {
 }
 
 /*Visit*/
-
 .text-wrapper {
   display: flex;
   flex-direction: column;
   align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .admission-wrapper {
@@ -196,10 +197,6 @@ footer p {
 }
 
 /*Library*/
-.library-h1 {
-  background: var(--green);
-}
-
 .image-library {
   width: 80%;
 }
@@ -207,6 +204,7 @@ footer p {
 .image-wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /*News*/
@@ -232,4 +230,43 @@ footer p {
   grid-template-rows: 1fr repeat(6);
   grid-area: "special biology" "cosmology ecology" "evolution robotics";
   padding: 40px 0px;
+}
+
+/*Explore*/
+.kids-text,
+.teacher-text {
+  flex: 1;
+}
+
+.kids-image,
+.teacher-image {
+  padding: 20px 0px;
+  flex: 1;
+}
+
+.kids-wrapper,
+.teacher-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.researchers-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+img.researchers-image {
+  width: 80%;
+}
+
+/*Kids*/
+img.kids2-image {
+  width: 70%;
+}
+
+.kids-categories {
+  widht: 70%;
 }
