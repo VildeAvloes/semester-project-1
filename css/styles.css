@@ -190,7 +190,7 @@ footer p {
   align-items: center;
 }
 
-.admission-wrapper {
+.content-wrapper__admission {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -207,22 +207,6 @@ footer p {
   align-items: center;
 }
 
-/*News*/
-.news-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.news-text {
-  padding: 0px 20px 20px 20px;
-}
-
-.news-image {
-  width: 70%;
-  padding: 20px 0px 20px 0px;
-}
-
 /*Exhibitions*/
 .exhibitions-categories {
   display: grid;
@@ -233,26 +217,26 @@ footer p {
 }
 
 /*Explore*/
-.kids-text,
-.teacher-text {
+.text-wrapper__left,
+.text-wrapper__right {
   flex: 1;
 }
 
-.kids-image,
-.teacher-image {
+.image-wrapper__right,
+.image-wrapper__left {
   padding: 20px 0px;
   flex: 1;
 }
 
-.kids-wrapper,
-.teacher-wrapper {
+.content-wrapper___left--right,
+.content-wrapper___right--left {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px 10px;
+  padding: 20px 10px;
 }
 
-.researchers-wrapper {
+.content-wrapper_middle {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -265,4 +249,9 @@ img.researchers-image {
 /*Kids*/
 img.kids2-image {
   width: 70%;
+}
+
+/*News*/
+.image-wrapper__news {
+  padding: 20px 20px;
 }
