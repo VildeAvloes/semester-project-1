@@ -2,8 +2,9 @@
 @import "imports/icons.css";
 @import "imports/variables.css";
 @import "imports/forms.css";
-
-/*Nav and Footer*/
+@import "imports/image.css";
+@import "imports/text.css";
+@import "imports/categories.css";
 
 .background-color {
   background: var(--white);
@@ -15,50 +16,10 @@ main {
   min-height: 100vh;
 }
 
-img {
-  width: 100%;
-  object-fit: cover;
-}
-
 body {
   font-family: var(--font-paragraph);
   min-height: 100vh;
   margin: 0px;
-}
-
-h1,
-h2,
-a,
-footer,
-.overlay-text,
-.cta {
-  font-family: var(--font-header);
-  font-weight: bold;
-  text-align: center;
-}
-
-h1 {
-  font-size: 1.8em;
-}
-
-h2 {
-  font-size: 1.4em;
-}
-
-p {
-  font-size: 1.2em;
-  text-align: center;
-}
-
-h1,
-nav a,
-.cta {
-  text-transform: uppercase;
-}
-
-img.logo {
-  width: 466px;
-  height: 136px;
 }
 
 header {
@@ -78,7 +39,7 @@ footer {
 nav {
   display: none;
   position: absolute;
-  top: 136px;
+  top: 88px;
   z-index: 1000;
   right: 0px;
 }
@@ -102,10 +63,6 @@ nav li {
   display: block;
 }
 
-.hamburger-icon {
-  padding-right: 15px;
-}
-
 footer {
   display: flex;
   flex-direction: column;
@@ -117,141 +74,4 @@ footer {
 footer p {
   font-size: 1em;
   margin: 0px;
-}
-
-.some-icons {
-  display: inline;
-  padding: 10px 0px;
-}
-
-/*Categories*/
-.h-wrapper {
-  height: 50px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.index-categories {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-area: "cat-exhibitions cat-explore cat-news" "cat-kids cat-library cat-info";
-  padding: 40px 0px;
-}
-
-.category-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-
-.category-image {
-  max-width: 100%;
-}
-
-.category-text {
-  padding: 5px;
-}
-
-.cat-exhibitions {
-  background: var(--orange);
-}
-
-.cat-explore {
-  background: var(--green);
-}
-
-.cat-news {
-  background: var(--light-blue);
-}
-
-.cat-kids {
-  background: var(--navy-blue);
-}
-
-.cat-library {
-  background: var(--purple);
-}
-
-.cat-info {
-  background: black;
-}
-
-/*Visit*/
-.text-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.content-wrapper__admission {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/*Library*/
-.image-library {
-  width: 80%;
-}
-
-.image-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/*Exhibitions*/
-.exhibitions-categories {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr repeat(6);
-  grid-area: "special biology" "cosmology ecology" "evolution robotics";
-  padding: 40px 0px;
-}
-
-/*Explore*/
-.text-wrapper__left,
-.text-wrapper__right {
-  flex: 1;
-}
-
-.image-wrapper__right,
-.image-wrapper__left {
-  padding: 20px 0px;
-  flex: 1;
-}
-
-.content-wrapper___left--right,
-.content-wrapper___right--left {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 20px 10px;
-}
-
-.content-wrapper_middle {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-img.researchers-image {
-  width: 80%;
-}
-
-/*Kids*/
-img.kids2-image {
-  width: 70%;
-}
-
-/*News*/
-.image-wrapper__news {
-  padding: 20px 20px;
 }

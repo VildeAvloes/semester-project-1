@@ -1,0 +1,97 @@
+h1,
+h2,
+a,
+footer,
+.overlay-text,
+.cta {
+  font-family: var(--font-header);
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.4em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 1em;
+  text-align: center;
+}
+
+h1,
+nav a,
+.cta {
+  text-transform: uppercase;
+}
+
+.h-wrapper {
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.text-wrapper__left,
+.text-wrapper__right {
+  flex: 1;
+}
+
+.image-wrapper__right,
+.image-wrapper__left {
+  padding: 20px 0px;
+  flex: 1;
+}
+
+.content-wrapper___left--right,
+.content-wrapper___right--left,
+.content-wrapper_middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+.kids-exhibitions {
+  margin: 0px;
+  padding-top: 40px;
+}
+
+@media (min-width: 500px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .content-wrapper___left--right {
+    flex-direction: row;
+    padding: 20px 10px;
+  }
+  .content-wrapper___right--left {
+    flex-direction: row-reverse;
+  }
+}

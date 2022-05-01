@@ -1,3 +1,12 @@
 i:hover {
   color: var(--orange);
 }
+
+.hamburger-icon {
+  padding-right: 15px;
+}
+
+.some-icons {
+  display: inline;
+  padding: 10px 0px;
+}

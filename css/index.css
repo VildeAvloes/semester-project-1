@@ -10,7 +10,7 @@ img.planets-image {
 
 .overlay-text {
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 0.8em;
   color: white;
   position: absolute;
   top: 80%;
@@ -20,7 +20,7 @@ img.planets-image {
 
 .welcome-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   padding: 20px;
 }
@@ -37,8 +37,9 @@ img.planets-image {
 
 .information-wrapper {
   background: black;
+  font-size: 1em;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
@@ -55,8 +56,8 @@ i.pin-icon {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
-  padding: 10px 0px;
+  gap: 15px;
+  padding: 5px 0px;
 }
 
 .information-text {
@@ -67,4 +68,55 @@ i.pin-icon {
 
 a.information-text {
   font-size: 1.2em;
+}
+
+.index-categories {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr repeat(6);
+  grid-area: "cat-exhibitions" "cat-explore" "cat-news" "cat-kids" "cat-library" "cat-info";
+  padding: 40px 0px;
+}
+
+@media (min-width: 550px) {
+  .overlay-text {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 685px) {
+  .information-wrapper {
+    flex-direction: row;
+  }
+
+  .opening-info,
+  .ticket-info,
+  .location-info {
+    gap: 10px;
+    padding: 10px 0px;
+  }
+
+  .index-categories {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1f;
+    grid-area: "cat-exhibitions cat-explore" "cat-news cat-kids" "cat-library cat-info";
+  }
+}
+
+@media (min-width: 750px) {
+  .information-wrapper {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 950px) {
+  .welcome-wrapper {
+    flex-direction: row;
+  }
+
+  .index-categories {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-area: "cat-exhibitions cat-explore cat-news" "cat-kids cat-library cat-info";
+  }
 }

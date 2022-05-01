@@ -18,7 +18,7 @@ a:hover {
 .cta {
   background: black;
   color: white;
-  font-size: 1.2em;
+  font-size: 1em;
   text-transform: uppercase;
   width: 100%;
   padding: 10px 40px;
@@ -41,4 +41,10 @@ a:hover {
 
 .cta-kids:hover {
   color: var(--navy-blue);
+}
+
+@media (min-width: 500px) {
+  .cta {
+    font-size: 1.2em;
+  }
 }
