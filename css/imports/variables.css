@@ -4,6 +4,7 @@
   --green: #0e6100;
   --light-blue: #047bc4;
   --navy-blue: #0442bf;
+  --rainbow: linear-gradient(#0442bf, #047bc4, #0e6100, #94076c, #d92b04);
   --font-header: Verdana, Geneva, Tahoma, sans-serif;
   --font-paragraph: "Montserrat", sans-serif, Verdana, Helvetica, Geneva, Tahoma, sans-serif;
 }

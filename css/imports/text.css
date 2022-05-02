@@ -1,5 +1,6 @@
 h1,
 h2,
+h3,
 a,
 footer,
 .overlay-text,
@@ -17,7 +18,12 @@ h2 {
   font-size: 1.2em;
 }
 
-p {
+h3 {
+  font-size: 1em;
+}
+
+p,
+a.information-text {
   font-size: 1em;
   text-align: center;
 }
@@ -81,7 +87,11 @@ nav a,
     font-size: 1.4em;
   }
 
-  p {
+  h3 {
+    font-size: 1.2em;
+  }
+
+  p .a-information-text {
     font-size: 1.2em;
   }
 }

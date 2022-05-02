@@ -66,10 +66,6 @@ i.pin-icon {
   color: white;
 }
 
-a.information-text {
-  font-size: 1.2em;
-}
-
 .index-categories {
   display: grid;
   grid-template-columns: 1fr;

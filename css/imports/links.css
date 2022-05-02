@@ -41,6 +41,7 @@ a:hover {
 
 .cta-kids:hover {
   color: var(--navy-blue);
+  border: 3px solid var(--navy-blue);
 }
 
 @media (min-width: 500px) {
