@@ -31,7 +31,7 @@ img.planets-image {
 }
 
 .museum-image {
-  width: 60%;
+  width: 70%;
   padding: 20px;
 }
 
@@ -83,6 +83,10 @@ i.pin-icon {
 @media (min-width: 685px) {
   .information-wrapper {
     flex-direction: row;
+  }
+
+  .museum-image {
+    width: 60%;
   }
 
   .opening-info,
