@@ -51,7 +51,7 @@ nav ul {
 
 nav li {
   display: block;
-  padding: 10px 20px;
+  padding: 15px 20px;
   text-align: center;
 }
 
@@ -74,4 +74,8 @@ footer {
 footer p {
   font-size: 1em;
   margin: 0px;
+}
+
+div {
+  display: inline-block;
 }

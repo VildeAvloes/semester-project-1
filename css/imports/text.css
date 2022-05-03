@@ -11,26 +11,27 @@ footer,
 }
 
 h1 {
-  font-size: 1.4em;
-}
-
-h2 {
   font-size: 1.2em;
 }
 
-h3 {
+h2 {
   font-size: 1.1em;
+}
+
+h3 {
+  font-size: 1em;
 }
 
 p,
 a.information-text {
-  font-size: 1em;
+  font-size: 0.8em;
   text-align: center;
 }
 
 h1,
 nav a,
-.cta {
+.cta,
+.h-wrapper {
   text-transform: uppercase;
 }
 
@@ -80,19 +81,20 @@ nav a,
 
 @media (min-width: 820px) {
   h1 {
-    font-size: 1.8em;
-  }
-
-  h2 {
     font-size: 1.4em;
   }
 
-  h3 {
-    font-size: 1em;
+  h2 {
+    font-size: 1.2em;
   }
 
-  p .a-information-text {
-    font-size: 1.2em;
+  h3 {
+    font-size: 1.1em;
+  }
+
+  p,
+  .a-information-text {
+    font-size: 1em;
   }
 }
 
