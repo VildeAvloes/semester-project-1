@@ -23,14 +23,16 @@ h3 {
   font-size: 0.9em;
 }
 
-footer p {
-  font-size: 0.8em;
-}
-
 p,
+footer p,
+footer a,
 a.information-text {
   font-size: 0.8em;
   text-align: center;
+}
+
+footer p {
+  margin: 0px;
 }
 
 h1,
@@ -103,7 +105,8 @@ nav a,
     font-size: 1em;
   }
 
-  footer p {
+  footer p,
+  footer a {
     font-size: 1em;
   }
 
