@@ -36,7 +36,7 @@ nav a,
 }
 
 .h-wrapper {
-  height: 50px;
+  height: 30px;
   color: white;
   display: flex;
   justify-content: center;
@@ -95,6 +95,9 @@ nav a,
   p,
   .a-information-text {
     font-size: 1em;
+  }
+  .h-wrapper {
+    height: 50px;
   }
 }
 
