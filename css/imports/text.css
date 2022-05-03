@@ -23,6 +23,10 @@ h3 {
   font-size: 0.9em;
 }
 
+footer p {
+  font-size: 0.8em;
+}
+
 p,
 a.information-text {
   font-size: 0.8em;
@@ -98,6 +102,11 @@ nav a,
   .a-information-text {
     font-size: 1em;
   }
+
+  footer p {
+    font-size: 1em;
+  }
+
   .h-wrapper {
     height: 50px;
   }
