@@ -1,3 +1,4 @@
+/*Text*/
 h1,
 h2,
 h3,
@@ -11,24 +12,24 @@ footer,
 }
 
 h1 {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 h2,
+h3,
 nav a {
-  font-size: 1em;
-}
-
-h3 {
-  font-size: 0.9em;
+  font-size: 1.1em;
 }
 
 p,
-footer p,
-footer a,
 a.information-text {
-  font-size: 0.8em;
+  font-size: 1em;
   text-align: center;
+}
+
+footer p,
+footer a {
+  font-size: 0.8em;
 }
 
 footer p {
@@ -42,6 +43,7 @@ nav a,
   text-transform: uppercase;
 }
 
+/*Content-wrappers*/
 .h-wrapper {
   height: 40px;
   color: white;
@@ -88,30 +90,26 @@ nav a,
 
 @media (min-width: 820px) {
   h1 {
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
 
   h2,
   nav a {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
 
   h3 {
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
 
   p,
   .a-information-text {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   footer p,
   footer a {
     font-size: 1em;
-  }
-
-  .h-wrapper {
-    height: 50px;
   }
 }
 
