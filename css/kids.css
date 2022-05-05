@@ -6,16 +6,15 @@
   padding: 40px 0px;
 }
 
+.kids-exhibitions {
+  margin: 0px;
+  padding-top: 40px;
+}
+
 @media (min-width: 820px) {
   .kids-categories {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-area: "special" "night";
-  }
-}
-
-@media (min-width: 1000px) {
-  img.kids-image {
-    width: 60%;
   }
 }

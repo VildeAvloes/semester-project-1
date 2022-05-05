@@ -3,24 +3,16 @@ img {
   object-fit: cover;
 }
 
-.image-library {
-  width: 80%;
-}
-
 .image-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-img.researchers-image {
+.image-wrapper__middle {
   width: 80%;
 }
 
-.image-wrapper__news {
-  padding: 20px 20px;
-}
-
-img.image-teacher {
+img.teacher {
   width: 70%;
 }

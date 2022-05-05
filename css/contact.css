@@ -11,10 +11,15 @@ textarea {
   min-height: 100px;
 }
 
+.contact-form {
+  justify-content: center;
+}
+
 .form-wrapper {
   display: flex;
   flex-flow: column wrap;
   align-content: center;
+  justify-content: center;
   text-align: left;
   margin: 30px;
 }
