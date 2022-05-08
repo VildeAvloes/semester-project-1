@@ -14,7 +14,6 @@
 }
 
 .welcome-wrapper {
-  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
@@ -25,7 +24,7 @@
   padding: 0px 20px;
 }
 
-.museum-image {
+.museum {
   width: 70%;
   padding: 20px;
 }
@@ -78,10 +77,6 @@ i.pin-icon {
 @media (min-width: 685px) {
   .information-wrapper {
     flex-direction: row;
-  }
-
-  .museum-image {
-    width: 60%;
   }
 
   .opening-info,
