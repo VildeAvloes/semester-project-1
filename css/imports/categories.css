@@ -37,8 +37,34 @@
   background: black;
 }
 
-@media (min-width: 750px) {
-  .category-wrapper {
-    padding: 20px;
+.category-wrapper__exhibitions {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr repeat(6);
+  grid-area: "special" "biology" "cosmology" "ecology" "evolution" "robotics";
+  padding: 40px 0px;
+}
+
+.category-wrapper__explore {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-area: "exhibition" "news";
+  padding: 40px 0px;
+}
+
+@media (min-width: 820px) {
+  .category-wrapper__explore {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-area: "exhibition" "news";
+  }
+}
+
+@media (min-width: 1000px) {
+  .category-wrapper__exhibitions {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr repeat(3);
+    grid-area: "special biology" "cosmology ecology" "evolution robotics";
   }
 }

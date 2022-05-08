@@ -38,16 +38,9 @@
   align-items: center;
 }
 
-i.clock-icon,
-i.ticket-icon,
-i.pin-icon {
-  color: white;
-}
-
 .opening-info,
 .ticket-info,
 .location-info {
-  display: flex;
   flex-direction: row;
   align-items: center;
   gap: 15px;
@@ -94,7 +87,8 @@ i.pin-icon {
 }
 
 @media (min-width: 750px) {
-  .information-wrapper {
+  .information-wrapper,
+  a.information-text {
     font-size: 1.2em;
   }
 }

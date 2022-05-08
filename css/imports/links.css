@@ -1,20 +1,3 @@
-a {
-  text-decoration: none;
-}
-
-nav a,
-footer a {
-  color: black;
-}
-
-nav a {
-  font-size: 1.2em;
-}
-
-a:hover {
-  color: var(--orange);
-}
-
 .cta {
   background: black;
   color: white;

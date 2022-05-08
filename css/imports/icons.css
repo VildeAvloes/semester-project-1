@@ -10,3 +10,9 @@ i:hover {
   display: inline;
   padding: 10px 0px;
 }
+
+i.clock-icon,
+i.ticket-icon,
+i.pin-icon {
+  color: white;
+}

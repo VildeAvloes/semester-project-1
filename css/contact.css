@@ -6,6 +6,10 @@ textarea {
   padding: 10px;
 }
 
+input:focus {
+  border: 2px solid var(--orange);
+}
+
 textarea {
   height: 65%;
   min-height: 100px;

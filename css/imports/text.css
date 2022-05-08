@@ -1,0 +1,70 @@
+h1,
+h2,
+h3,
+a,
+footer,
+.overlay-text,
+.cta {
+  font-family: var(--font-header);
+  font-weight: bold;
+  text-align: center;
+}
+
+h1,
+nav a,
+.cta,
+.wrapper-header {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--orange);
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+h2,
+h3 {
+  font-size: 1.1em;
+}
+
+p,
+nav a,
+a.information-text {
+  font-size: 1em;
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+footer p,
+footer a {
+  font-size: 0.8em;
+}
+
+footer p {
+  margin: 0px;
+}
+
+.time-text {
+  font-style: italic;
+}
+
+@media (min-width: 820px) {
+  h1 {
+    font-size: 1.6em;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.3em;
+  }
+}

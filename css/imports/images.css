@@ -4,13 +4,14 @@ img {
 }
 
 .image-wrapper {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.image-wrapper__middle {
-  width: 80%;
+.image-wrapper__right,
+.image-wrapper__left {
+  padding: 20px 0px;
+  flex: 1;
 }
 
 img.teacher {
