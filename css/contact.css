@@ -1,7 +1,3 @@
-form {
-  all: unset;
-}
-
 input,
 textarea {
   border: 2px solid black;
@@ -40,5 +36,4 @@ textarea {
 input[type="submit"] {
   width: 225px;
   text-align: center;
-  all: unset;
 }
