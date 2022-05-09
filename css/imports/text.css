@@ -4,8 +4,7 @@ h3,
 a,
 footer,
 .overlay-text,
-.cta,
-.logo {
+.cta {
   font-family: var(--font-header);
   font-weight: bold;
   text-align: center;
