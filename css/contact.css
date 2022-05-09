@@ -2,12 +2,11 @@ input,
 textarea {
   border: 2px solid black;
   margin: 10px 10px 10px 0px;
-  width: 100%;
   padding: 10px;
 }
 
 input:focus {
-  border: 2px solid var(--orange);
+  border: 3px solid black;
 }
 
 textarea {
@@ -21,7 +20,7 @@ textarea {
 
 .form-wrapper {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   align-content: center;
   justify-content: center;
   text-align: left;
@@ -36,4 +35,5 @@ textarea {
 
 input[type="submit"] {
   width: 225px;
+  text-align: center;
 }

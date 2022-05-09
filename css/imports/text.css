@@ -25,6 +25,11 @@ a:hover {
   color: var(--orange);
 }
 
+nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 1.3em;
 }

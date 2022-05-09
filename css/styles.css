@@ -42,7 +42,6 @@ header {
 }
 
 header,
-nav,
 footer {
   background-color: white;
 }
@@ -50,19 +49,20 @@ footer {
 nav {
   display: none;
   position: absolute;
-  top: 88px;
+  top: 91px;
   z-index: 1000;
   right: 0px;
+  background-color: white;
 }
 
 nav ul {
-  margin: 20px;
+  margin: 10px 20px;
   padding: 0px;
 }
 
 nav li {
   display: block;
-  padding: 15px 20px;
+  padding: 15px 30px;
   text-align: center;
 }
 
