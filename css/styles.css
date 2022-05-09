@@ -3,7 +3,7 @@
 @import "imports/variables.css";
 @import "imports/images.css";
 @import "imports/text.css";
-@import "imports/content.css";
+@import "imports/wrappers.css";
 @import "imports/categories.css";
 
 .background-color {

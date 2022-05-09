@@ -1,3 +1,7 @@
+form {
+  -webkit-appearance: none;
+}
+
 input,
 textarea {
   border: 2px solid black;
