@@ -6,7 +6,7 @@
   width: 100%;
   padding: 10px 40px;
   box-sizing: border-box;
-  border: 2px solid;
+  border: 2px solid black;
 }
 
 .cta-wrapper {
@@ -21,6 +21,7 @@
 
 .cta-kids {
   background-color: var(--navy-blue);
+  border: 2px solid var(--navy-blue);
 }
 
 .cta-kids:hover {
