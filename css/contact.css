@@ -40,4 +40,5 @@ textarea {
 input[type="submit"] {
   width: 225px;
   text-align: center;
+  all: unset;
 }
