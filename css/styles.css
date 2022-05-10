@@ -2,7 +2,6 @@
 @import "imports/icons.css";
 @import "imports/variables.css";
 @import "imports/images.css";
-@import "imports/text.css";
 @import "imports/wrappers.css";
 @import "imports/categories.css";
 
@@ -24,6 +23,72 @@ body {
 
 div {
   display: flex;
+}
+
+/*Text*/
+h1,
+h2,
+h3,
+a,
+footer,
+.overlay-text,
+.cta {
+  font-family: var(--font-header);
+  font-weight: bold;
+  text-align: center;
+}
+
+h1,
+nav a,
+.cta,
+.wrapper-header {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--orange);
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+h2,
+h3 {
+  font-size: 1.1em;
+}
+
+p,
+nav a,
+a.information-text {
+  font-size: 1em;
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+footer p,
+footer a {
+  font-size: 0.8em;
+}
+
+footer p {
+  margin: 0px;
+}
+
+.time {
+  font-style: italic;
 }
 
 /*Nav and footer*/
@@ -90,7 +155,16 @@ footer {
   }
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 1060px) {
+  h1 {
+    font-size: 1.6em;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.2em;
+  }
+
   header label {
     display: none;
   }
@@ -115,5 +189,9 @@ footer {
     padding-left: 3px;
     margin-top: 1px;
     margin-bottom: 1px;
+  }
+
+  .active {
+    text-decoration: underline;
   }
 }

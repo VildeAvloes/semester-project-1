@@ -4,13 +4,16 @@
   font-size: 1em;
   text-transform: uppercase;
   width: 100%;
+  max-width: 250px;
   padding: 10px 40px;
   box-sizing: border-box;
   border: 2px solid black;
 }
 
 .cta-wrapper {
-  padding: 10px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
 }
 
 .cta:hover {

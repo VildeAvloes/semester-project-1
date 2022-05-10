@@ -5,7 +5,8 @@
 input,
 textarea {
   border: 2px solid black;
-  margin: 10px 10px 10px 0px;
+  border-radius: 0px;
+  margin: 10px 0px 10px 0px;
   padding: 10px;
 }
 
@@ -20,7 +21,7 @@ textarea {
 
 .form-wrapper {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   align-content: center;
   justify-content: center;
   text-align: left;
@@ -31,15 +32,4 @@ textarea {
   flex: 1;
   display: flex;
   flex-direction: column;
-}
-
-input[type="submit"] {
-  width: 225px;
-  text-align: center;
-}
-
-@media (min-width: 1000px) {
-  .contact-wrapper {
-    flex-direction: row;
-  }
 }
