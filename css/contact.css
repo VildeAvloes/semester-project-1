@@ -1,3 +1,7 @@
+.contact-wrapper {
+  flex-direction: column;
+}
+
 input,
 textarea {
   border: 2px solid black;
@@ -12,10 +16,6 @@ input:focus {
 textarea {
   height: 65%;
   min-height: 100px;
-}
-
-.contact-form {
-  justify-content: center;
 }
 
 .form-wrapper {
@@ -36,4 +36,10 @@ textarea {
 input[type="submit"] {
   width: 225px;
   text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .contact-wrapper {
+    flex-direction: row;
+  }
 }
