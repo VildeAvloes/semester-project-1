@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 40px 40px 40px;
+  padding: 0px 20px 20px 20px;
 }
 
 .category-image {
@@ -42,7 +42,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);
   grid-area: "special" "biology" "cosmology" "ecology" "evolution" "robotics";
-  padding: 40px 0px;
+  padding: 40px 0px 0px 0px;
 }
 
 .category-wrapper__explore {
@@ -54,6 +54,13 @@
 }
 
 @media (min-width: 820px) {
+  .category-wrapper {
+    padding: 0px 40px 40px 40px;
+  }
+
+  .category-wrapper__exhibitions {
+    padding: 40px 0px 10px 0px;
+  }
   .category-wrapper__explore {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
