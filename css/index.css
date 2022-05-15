@@ -56,8 +56,8 @@
 .index-categories {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr repeat(6);
-  grid-area: "cat-exhibitions" "cat-explore" "cat-events" "cat-kids" "cat-library" "cat-info";
+  grid-template-rows: repeat(6, 1fr);
+  grid-area: "exhibtions" "kids" "school" "events" "library" "info";
   padding: 40px 0px;
 }
 
@@ -81,8 +81,8 @@
 
   .index-categories {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1f;
-    grid-area: "cat-exhibitions cat-explore" "cat-events cat-kids" "cat-library cat-info";
+    grid-template-rows: repeat(3, 1fr);
+    grid-area: "exhibitions kids" "school events" "library info";
   }
 }
 
@@ -99,8 +99,8 @@
   }
 
   .index-categories {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
-    grid-area: "cat-exhibitions cat-explore cat-events" "cat-kids cat-library cat-info";
+    grid-area: "exhibitions kids school" "events library info";
   }
 }
