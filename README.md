@@ -29,7 +29,7 @@ You can also have a live view of the page after pushing edits [here](https://aes
 
 
 ## Contributing
-I made this project myself. If you would like to contribute please feal free to make a branch and push your commits. 
+I made this project myself. If you would like to contribute please feel free to make a branch and push your commits. 
 
 
 ## Contact
