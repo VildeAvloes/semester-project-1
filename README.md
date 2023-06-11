@@ -3,7 +3,7 @@
 ![Screenshot of the front page of The Community Science Musem. The front page has a menu on the top and a big picture of the moon in different phases.](/images/The-Community-Science-Museum.png)
 
 ### Description
-This is my first Semester Project at the front-end-developer program at Noroff Fagskole. The aim for this project was to show the skills I’d learned throughout my first year at the program in design, HTML and CSS.
+This is my first Semester Project at the front-end-developer program at Noroff Fagskole. The aim for this project was to show the skills I’d learned throughout my first year at the program in design, HTML and CSS. The website has 9 HTML-pages and I have used Netlify to host the page. 
 
 _Built With_
 
