@@ -19,8 +19,8 @@ You only need to clone the project and you can do that with the method you prefe
 
 - Through commands: `git clone git@github.com:VildeAvloes/semester-project-1`
 -  Through Github
-    -  First option: Clone > Open with GitHub Desktop > save and open in your preferred code editoror
-    -  Second option: Clone > Download Zip > Save and open in preferred code editor
+    -  First option: Clone > Open with GitHub Desktop > save and open in your preferred code editor.
+    -  Second option: Clone > Download Zip > Save and open in preferred code editor.
 
 ### Running
 The project can be run locally with the «Live Server»-extension that you can download in VS Code.
